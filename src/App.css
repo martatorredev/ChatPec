@@ -8,4 +8,5 @@ body {
    color: var(--primary-dark);
    padding-inline: var(--padding-global);
    max-width: var(--max-width-xl);
+   margin-inline: auto;
 }
