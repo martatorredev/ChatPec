@@ -1,0 +1,13 @@
+.ct p {
+   color: var(--primary);
+}
+
+.ct span {
+   color: var(--orange);
+   text-decoration: underline;
+}
+
+.ct {
+   text-align: center;
+   margin-top: 10rem;
+}

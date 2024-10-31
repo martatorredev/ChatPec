@@ -10,7 +10,7 @@ const Home = () => {
          <div className={styles.inputField}>
             <h2>Pregúntame lo que quieras</h2>
             <form>
-               <input type="text" />
+               <input type="text" placeholder="Escribe aquí..." />
                <button type="submit">Enviar</button>
             </form>
          </div>
