@@ -2,7 +2,7 @@
    color: var(--primary);
 }
 
-.ct span {
+.ct a {
    color: var(--orange);
    text-decoration: underline;
 }
@@ -10,4 +10,5 @@
 .ct {
    text-align: center;
    margin-top: 10rem;
+   margin-bottom: 2rem;
 }

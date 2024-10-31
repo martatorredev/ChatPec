@@ -6,4 +6,6 @@ body {
    min-height: 100dvh;
    background-color: var(--bg-light);
    color: var(--primary-dark);
+   padding-inline: var(--padding-global);
+   max-width: var(--max-width-xl);
 }

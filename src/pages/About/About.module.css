@@ -1,0 +1,17 @@
+.ct h2 {
+   font-size: 1.7rem;
+   margin-bottom: 0.8rem;
+}
+
+.ct {
+   text-align: left;
+}
+
+.ct section {
+   margin-top: 2rem;
+   font-size: 16px;
+}
+
+.ct ul {
+   padding-left: 2rem;
+}
