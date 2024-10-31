@@ -4,4 +4,6 @@
 body {
    font-family: "Rubik", sans-serif;
    min-height: 100dvh;
+   background-color: var(--bg-light);
+   color: var(--primary-dark);
 }
