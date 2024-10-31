@@ -14,4 +14,8 @@ img {
 
 /* Global Settings */
 :root {
+   --bg-light: #f4f4f9;
+   --orange: #ed7e3f;
+   --primary-dark: #153740;
+   --primary: #589aa9;
 }
