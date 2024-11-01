@@ -2,10 +2,11 @@ import { useRef } from "react";
 import useChatApi from "../../hooks/useChatApi";
 import styles from "./Home.module.css";
 
-// TODO: Receber o texto no servidor
-
 const Home = () => {
    const textRef = useRef();
+   // TODO: Renderizar os chats
+   // TODO: Fazer deploy do backend
+
    const { send, error, loading } = useChatApi("POST", (v) => {
       console.log(v);
    });
