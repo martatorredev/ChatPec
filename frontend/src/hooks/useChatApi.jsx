@@ -1,17 +1,18 @@
 import { useState } from "react";
 
-const useChatApi = ({ endpoint }) => {
+const useChatApi = (method, onSucess) => {
    const [loading, setLoading] = useState();
-   const [awnser, setAwnser] = useState(null);
    const [error, setError] = useState(null);
 
    function send(endpoint) {
-      const res = fetch(endpoint)
+      setLoading(true);
+      const res = fetch(`${import.meta.env.VITE_BACKEND_URL}/${endpoint}`, { method })
          .then((v) => v.json())
-         .then((v) => setAwnser(v))
-         .catch((err) => setError(err));
+         .then((v) => onSucess(v))
+         .catch((err) => setError(err.message))
+         .finally(() => setLoading(false));
    }
 
-   return { loading, awnser, error, send };
+   return { loading, error, send };
 };
 export default useChatApi;
