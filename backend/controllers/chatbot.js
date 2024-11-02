@@ -32,7 +32,7 @@ function findAwnser(userQuestion) {
    });
    console.log(bestMatch.awnser);
    //   Defines limit distance to accept the question
-   if (bestMatch.distance < 5) {
+   if (bestMatch.distance < 15) {
       return bestMatch.awnser;
    } else {
       return "No respondo a ese tipo de preguntas";

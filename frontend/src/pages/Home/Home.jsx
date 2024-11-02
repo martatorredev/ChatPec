@@ -1,38 +1,23 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import useChatApi from "../../hooks/useChatApi";
 import styles from "./Home.module.css";
 import Chats from "../../components/Chats/Chats";
 
 const Home = () => {
    const textRef = useRef();
-
-   const dummyChats = [
-      {
-         fromBot: false,
-         text: "Esto es una pregunta del usuario",
-      },
-      {
-         fromBot: true,
-         text: "Esto es la respuesta de ChatPEC. Es Por el Clima, no Por El Culo.",
-      },
-      {
-         fromBot: false,
-         text: "Esto es una pregunta del usuario",
-      },
-      {
-         fromBot: true,
-         text: "Esto es la respuesta de ChatPEC. Es Por el Clima, no Por El Culo.",
-      },
-   ];
+   // TODO: Adicionar chat do tipo user ao se enviar uma pergunta
+   // TODO: Adicionar chat do tipo fromBot ao se receber a resposta
+   const chats = useRef([]);
 
    const { send, error, loading } = useChatApi("POST", (v) => {
       console.log(v);
+      chats.current.push({ fromBot: true, text: v?.awnser });
    });
 
    return (
       <div className={styles.ct}>
          {/* Chats */}
-         <Chats chats={dummyChats} />
+         <Chats chats={chats.current} />
 
          {/* Input Field */}
          <div className={styles.inputField}>
