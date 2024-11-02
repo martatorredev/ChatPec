@@ -5,7 +5,15 @@ const Footer = () => {
    return (
       <footer className={styles.ct}>
          <p>
-            Crafted with 💚 & ☕ by <Link className={styles.link}>Agata</Link> |{" "}
+            Crafted with 💚 & ☕ by{" "}
+            <a href="https://agata.agency/" target="_blank" className={styles.link}>
+               Agata
+            </a>{" "}
+            &{" "}
+            <a href="https://martatorre.dev/" target="_blank" className={styles.link}>
+               Marta Torre
+            </a>{" "}
+            |{" "}
             <Link to="/about" className={styles.link}>
                Quiénes somos
             </Link>
