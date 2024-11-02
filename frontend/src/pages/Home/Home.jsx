@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import useChatApi from "../../hooks/useChatApi";
 import styles from "./Home.module.css";
 import Chats from "../../components/Chats/Chats";

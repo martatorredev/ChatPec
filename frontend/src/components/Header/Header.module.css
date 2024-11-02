@@ -1,11 +1,23 @@
 .ct {
-    text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-    cursor: pointer;
-    transition: all .3s ease-out;
+   text-align: center;
+   margin-top: 5rem;
+   margin-bottom: 3rem;
+   cursor: pointer;
+   transition: all 0.3s ease-out;
 }
 
 .ct:hover {
-    scale: 1.1;
+   scale: 1.1;
+}
+
+@media screen and (max-width: 975px) {
+   .ct img {
+      width: 100px;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .ct img {
+      width: 80px;
+   }
 }
