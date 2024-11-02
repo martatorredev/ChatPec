@@ -20,20 +20,24 @@ const data = [
 ];
 
 function findAwnser(userQuestion) {
-   let bestMatch = { awnser: null, distance: Infinity };
+   let bestMatch = { awnser: null, distance: Infinity, question: null };
 
    data.forEach((item) => {
       //    Smaller the distance, higher the matching
       const distance = leven(userQuestion, item.question);
       console.log(distance);
       if (distance < bestMatch.distance) {
-         bestMatch = { awnser: item.awnser, distance };
+         bestMatch = { awnser: item.awnser, distance, question: item.question };
       }
    });
+
    console.log(bestMatch.awnser);
+
    //   Defines limit distance to accept the question
    if (bestMatch.distance < 15) {
       return bestMatch.awnser;
+   } else if (bestMatch.distance < 30) {
+      return `¿Preguntaste "${bestMatch.question}", entonces la respuesta es: ${bestMatch.awnser}`;
    } else {
       return "No respondo a ese tipo de preguntas";
    }
