@@ -15,7 +15,7 @@ const Home = () => {
    return (
       <div className={styles.ct}>
          {/* Chats */}
-         <Chats chats={chats.current} />
+         <Chats loading={loading} chats={chats.current} />
 
          {/* Input Field */}
          <div className={styles.inputField}>

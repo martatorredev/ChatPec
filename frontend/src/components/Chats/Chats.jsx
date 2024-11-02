@@ -1,6 +1,7 @@
 import styles from "./Chats.module.css";
+import logo from "../../assets/Logo.svg";
 
-const Chats = ({ chats = [] }) => {
+const Chats = ({ chats = [], loading }) => {
    return (
       <div className={styles.chatsCt}>
          {chats.map((v, k) => (
@@ -8,6 +9,11 @@ const Chats = ({ chats = [] }) => {
                <p>{v?.text}</p>
             </div>
          ))}
+         {loading && (
+            <div className={`${styles.chatCard} ${styles.fromBot}`}>
+               <img className={styles.loading} src={logo} alt="Loading illustration" />
+            </div>
+         )}
       </div>
    );
 };
