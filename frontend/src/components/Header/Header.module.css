@@ -20,4 +20,7 @@
    .ct img {
       width: 80px;
    }
+   .ct {
+    margin-top: 2rem;
+   }
 }

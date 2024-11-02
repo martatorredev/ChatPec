@@ -21,3 +21,10 @@ img {
    --padding-global: 1.8125rem;
    --max-width-xl: 50rem;
 }
+
+@media screen and (max-width: 390px) {
+   :root {
+      --padding-global: 1.3rem;
+   }
+  
+}

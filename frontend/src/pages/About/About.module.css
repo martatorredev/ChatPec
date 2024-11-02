@@ -15,3 +15,9 @@
 .ct ul {
    padding-left: 2rem;
 }
+
+@media screen and (max-width: 550px) {
+   .ct h2 {
+      font-size: 1.5rem;
+   }
+}

@@ -56,3 +56,17 @@
       font-size: 1.5rem;
    }
 }
+
+@media screen and (max-width: 390px) {
+   .inputField h2 {
+      font-size: 1.3rem;
+   }
+
+   .inputField input {
+      font-size: 1rem;
+   }
+
+   .inputField button {
+      font-size: 1.2rem;
+   }
+}
