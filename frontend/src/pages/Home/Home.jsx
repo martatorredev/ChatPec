@@ -5,8 +5,6 @@ import Chats from "../../components/Chats/Chats";
 
 const Home = () => {
    const textRef = useRef();
-   // TODO: Adicionar chat do tipo user ao se enviar uma pergunta
-   // TODO: Adicionar chat do tipo fromBot ao se receber a resposta
    const chats = useRef([]);
 
    const { send, error, loading } = useChatApi("POST", (v) => {
@@ -25,6 +23,7 @@ const Home = () => {
             <form
                onSubmit={(e) => {
                   e.preventDefault();
+                  chats.current.push({ fromBot: false, text: textRef?.current?.value });
                   send("api/chatbot?text=" + textRef?.current?.value);
                }}
             >
