@@ -9,4 +9,5 @@ body {
    padding-inline: var(--padding-global);
    max-width: var(--max-width-xl);
    margin-inline: auto;
+   padding-bottom: 2rem;
 }

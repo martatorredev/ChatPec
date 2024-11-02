@@ -1,11 +1,29 @@
 import { useRef } from "react";
 import useChatApi from "../../hooks/useChatApi";
 import styles from "./Home.module.css";
+import Chats from "../../components/Chats/Chats";
 
 const Home = () => {
    const textRef = useRef();
-   // TODO: Renderizar os chats
-   // TODO: Fazer deploy do backend
+
+   const dummyChats = [
+      {
+         fromBot: false,
+         text: "Esto es una pregunta del usuario",
+      },
+      {
+         fromBot: true,
+         text: "Esto es la respuesta de ChatPEC. Es Por el Clima, no Por El Culo.",
+      },
+      {
+         fromBot: false,
+         text: "Esto es una pregunta del usuario",
+      },
+      {
+         fromBot: true,
+         text: "Esto es la respuesta de ChatPEC. Es Por el Clima, no Por El Culo.",
+      },
+   ];
 
    const { send, error, loading } = useChatApi("POST", (v) => {
       console.log(v);
@@ -14,7 +32,7 @@ const Home = () => {
    return (
       <div className={styles.ct}>
          {/* Chats */}
-         <div className={styles.chatCt}></div>
+         <Chats chats={dummyChats} />
 
          {/* Input Field */}
          <div className={styles.inputField}>
