@@ -1,6 +1,8 @@
 import styles from "./Chats.module.css";
 import logo from "../../assets/Logo.svg";
 
+// TODO: Return warning in case of error 500
+
 const Chats = ({ chats = [], loading }) => {
    return (
       <div className={styles.chatsCt}>

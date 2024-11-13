@@ -48,6 +48,8 @@ const chatbotController = (req, res, next) => {
    const awnser = findAwnser(text);
    if (awnser) {
       res.json({ awnser });
+   } else {
+      res.status(500).json({ message: "Error del servidor, inténtelo más tarde" });
    }
 };
 
