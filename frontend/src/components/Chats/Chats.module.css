@@ -21,6 +21,10 @@
    border-radius: 20px 20px 20px 0;
 }
 
+.chatCard.error {
+   color: red;
+}
+
 .loading {
    transition: all 0.1s;
    animation: load 0.4s alternate-reverse ease-out infinite;
@@ -36,15 +40,14 @@
    }
 }
 
-
 @media screen and (max-width: 750px) {
-    .loading {
-        width: 50px;
-    }  
+   .loading {
+      width: 50px;
+   }
 }
 
 @media screen and (max-width: 420px) {
-    .loading {
-        width: 40px;
-    }  
+   .loading {
+      width: 40px;
+   }
 }

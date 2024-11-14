@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import useChatApi from "../../hooks/useChatApi";
 import styles from "./Home.module.css";
 import Chats from "../../components/Chats/Chats";
@@ -11,6 +11,14 @@ const Home = () => {
       console.log(v);
       chats.current.push({ fromBot: true, text: v?.awnser });
    });
+
+   //  In case there's a error while getting the response
+   useEffect(() => {
+      if (error) {
+         console.log(error);
+         chats.current.push({ fromBot: true, text: error, error: true });
+      }
+   }, [error]);
 
    return (
       <div className={styles.ct}>

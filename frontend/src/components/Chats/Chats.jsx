@@ -7,7 +7,7 @@ const Chats = ({ chats = [], loading }) => {
    return (
       <div className={styles.chatsCt}>
          {chats.map((v, k) => (
-            <div key={k} className={`${styles.chatCard} ${v?.fromBot && styles.fromBot}`}>
+            <div key={k} className={`${styles.chatCard} ${v?.error && styles.error} ${v?.fromBot && styles.fromBot}`}>
                <p>{v?.text}</p>
             </div>
          ))}
