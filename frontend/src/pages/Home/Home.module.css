@@ -41,6 +41,21 @@
    font-size: 1.1875rem;
 }
 
+.resetBtn {
+   padding: 0.5rem;
+   background-color: yellow;
+   border: 1px solid black;
+   border-radius: 8px;
+   margin-top: -1rem;
+   margin-bottom: 2rem;
+   cursor: pointer;
+   transition: scale .2s ease-out;
+}
+
+.resetBtn:hover {
+   scale: 1.05;
+}
+
 @media screen and (max-width: 975px) {
    .inputField {
       width: 100%;

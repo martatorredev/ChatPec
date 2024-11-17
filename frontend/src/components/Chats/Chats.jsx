@@ -16,7 +16,7 @@ const Chats = ({ chats = [], loading }) => {
                         {v?.links.map((v, k) => (
                            <li key={k}>
                               <a target="_blank" href={v?.href}>
-                                 {v?.text}
+                                 {v?.text ? v?.text : v?.href}
                               </a>
                            </li>
                         ))}
