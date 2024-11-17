@@ -9,7 +9,7 @@ const Home = () => {
 
    const { send, error, loading } = useChatApi("POST", (v) => {
       console.log(v);
-      chats.current.push({ fromBot: true, text: v?.awnser });
+      chats.current.push({ fromBot: true, text: v?.awnser?.awnser });
    });
 
    //  In case there's a error while getting the response
