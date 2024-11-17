@@ -3,6 +3,9 @@
    margin-top: 4rem;
    margin-bottom: 2rem;
    justify-self: flex-end;
+   display: flex;
+   flex-direction: column;
+   gap: 0.4rem;
 }
 
 .ct p {
@@ -13,4 +16,3 @@
    color: var(--orange);
    text-decoration: underline;
 }
-
