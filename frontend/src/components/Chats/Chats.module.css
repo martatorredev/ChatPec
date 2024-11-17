@@ -6,9 +6,23 @@
    margin-bottom: 2.5rem;
 }
 
+.chatsCt ul {
+   padding-left: 1rem;
+   display: flex;
+   flex-direction: column;
+   gap: 0.2rem;
+   margin-top: 0.2rem;
+}
+
+.chatsCt ul li a {
+   color: #fadce5;
+
+   text-decoration: underline;
+}
+
 .chatCard {
    align-self: flex-end;
-   max-width: 470px;
+   max-width: 600px;
    background-color: rgba(88, 154, 169, 0.535);
    border-radius: 20px 20px 0px 20px;
    padding: 2rem;
@@ -49,5 +63,11 @@
 @media screen and (max-width: 420px) {
    .loading {
       width: 40px;
+   }
+}
+
+@media screen and (max-width: 370px) {
+   .chatCard {
+      padding: 1rem;
    }
 }

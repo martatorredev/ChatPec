@@ -8,8 +8,7 @@ const Home = () => {
    const chats = useRef([]);
 
    const { send, error, loading } = useChatApi("POST", (v) => {
-      console.log(v);
-      chats.current.push({ fromBot: true, text: v?.awnser?.awnser });
+      chats.current.push({ fromBot: true, text: v?.awnser?.awnser, links: v?.awnser?.links });
    });
 
    //  In case there's a error while getting the response
