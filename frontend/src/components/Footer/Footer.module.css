@@ -1,3 +1,10 @@
+.ct {
+   text-align: center;
+   margin-top: 4rem;
+   margin-bottom: 2rem;
+   justify-self: flex-end;
+}
+
 .ct p {
    color: var(--primary);
 }
@@ -7,8 +14,3 @@
    text-decoration: underline;
 }
 
-.ct {
-   text-align: center;
-   margin-top: 10rem;
-   margin-bottom: 2rem;
-}

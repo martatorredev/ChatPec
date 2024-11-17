@@ -19,6 +19,8 @@ const Home = () => {
       }
    }, [error]);
 
+   // TODO: Add button to clear chat history
+
    return (
       <div className={styles.ct}>
          {/* Chats */}
