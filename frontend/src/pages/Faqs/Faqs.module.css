@@ -1,3 +1,7 @@
+#ct {
+    margin-top: 5rem;
+}
+
 #ct h2 {
    font-size: 1.7rem;
    text-align: center;
@@ -5,10 +9,8 @@
 
 #faqsCt {
    padding-inline: 1rem;
-   margin-top: 2rem;
+   margin-top: 3rem;
 }
-
-
 
 @media screen and (max-width: 550px) {
    #ct h2 {
