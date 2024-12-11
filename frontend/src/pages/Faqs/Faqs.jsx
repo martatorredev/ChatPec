@@ -1,4 +1,6 @@
+import { useState } from "react";
 import styles from "./Faqs.module.css";
+import Faq from "./Faq";
 
 const tempFaqs = [
    {
@@ -40,15 +42,7 @@ const Faqs = () => {
 
          <div id={styles.faqsCt}>
             {tempFaqs.map((v, k) => (
-               <details key={k}>
-                  <summary>
-                     <div className={styles.faqTit}>
-                        <h6>{v.question}</h6>
-                        <span>+</span>
-                     </div>
-                  </summary>
-                  <p>{v.awnser}</p>
-               </details>
+               <Faq question={v.question} awnser={v.awnser} key={k} />
             ))}
          </div>
       </div>

@@ -1,0 +1,52 @@
+summary {
+   list-style-type: none;
+}
+
+details {
+   margin-bottom: 1rem;
+   border-bottom: 1px solid var(--primary-dark);
+   padding-bottom: 0.5rem;
+}
+
+details p {
+   padding-inline: 0.5rem;
+   font-size: 17px;
+   margin-top: 0.2rem;
+   font-weight: 300;
+}
+
+.faqTit {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   cursor: pointer;
+}
+
+.faqTit span {
+   font-size: 1.325rem;
+   font-weight: 400;
+   line-height: 0;
+}
+
+.faqTit h6 {
+   font-size: 1.325rem;
+   font-weight: 400;
+   user-select: none;
+}
+
+/* Transition effect */
+details[open] summary ~ * {
+   animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+   0% {
+      opacity: 0;
+      transform: translateX(-10px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0px);
+   }
+}
