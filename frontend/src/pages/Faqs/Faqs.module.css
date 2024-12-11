@@ -3,6 +3,47 @@
    text-align: center;
 }
 
+#faqsCt {
+   padding-inline: 1rem;
+   margin-top: 2rem;
+}
+
+.faqTit {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   cursor: pointer;
+}
+
+.faqTit span {
+   font-size: 1.325rem;
+   font-weight: 400;
+}
+
+.faqTit h6 {
+   font-size: 1.325rem;
+   font-weight: 400;
+   user-select: none;
+}
+
+summary {
+   list-style-type: none;
+}
+
+details {
+   margin-bottom: 1rem;
+   border-bottom: 1px solid var(--primary-dark);
+   padding-bottom: .5rem;
+}
+
+details p {
+   padding-inline: 0.5rem;
+   font-size: 17px;
+   margin-top: 0.2rem;
+   font-weight: 300;
+}
+
 @media screen and (max-width: 550px) {
    #ct h2 {
       font-size: 1.5rem;
