@@ -21,6 +21,7 @@ details p {
    justify-content: space-between;
    width: 100%;
    cursor: pointer;
+   gap: 2rem;
 }
 
 .faqTit span {
@@ -48,5 +49,25 @@ details[open] summary ~ * {
    100% {
       opacity: 1;
       transform: translateX(0px);
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .faqTit h6 {
+      font-size: 1.2rem;
+      font-weight: 400;
+      user-select: none;
+   }
+
+   details p {
+      font-size: 15px;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .faqTit h6 {
+      font-size: 1rem;
+      font-weight: 400;
+      user-select: none;
    }
 }
