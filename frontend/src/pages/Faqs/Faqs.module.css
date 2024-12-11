@@ -1,0 +1,16 @@
+#ct h2 {
+   font-size: 1.7rem;
+   text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+   #ct h2 {
+      font-size: 1.5rem;
+   }
+}
+
+@media screen and (max-width: 390px) {
+   #ct h2 {
+      font-size: 1.3rem;
+   }
+}

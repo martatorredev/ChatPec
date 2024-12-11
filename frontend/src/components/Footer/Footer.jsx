@@ -16,6 +16,10 @@ const Footer = () => {
             |{" "}
             <Link to="/about" className={styles.link}>
                Quiénes somos
+            </Link>{" "}
+            |{" "}
+            <Link to="/faqs" className={styles.link}>
+               Faqs
             </Link>
          </p>
          <p>Copyright 2024 © - Todos los derechos reservados</p>
