@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./Faq.module.css";
 
-const Faq = ({ question, awnser }) => {
+const Faq = ({ question, awnser, details }) => {
    const [open, setOpen] = useState(false);
 
    function handleChange() {
@@ -16,6 +16,13 @@ const Faq = ({ question, awnser }) => {
             </div>
          </summary>
          <p>{awnser}</p>
+         {details?.length > 0 && (
+            <ul className={styles.detailsCt}>
+               {details.map((v, k) => (
+                  <li key={k}>{v}</li>
+               ))}
+            </ul>
+         )}
       </details>
    );
 };

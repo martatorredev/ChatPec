@@ -36,6 +36,15 @@ details p {
    user-select: none;
 }
 
+.detailsCt {
+   padding-left: 2rem;
+   font-weight: 300;
+   margin-top: .5rem;
+   display: flex;
+   flex-flow: column;
+   gap: .3rem;
+}
+
 /* Transition effect */
 details[open] summary ~ * {
    animation: sweep 0.5s ease-in-out;
