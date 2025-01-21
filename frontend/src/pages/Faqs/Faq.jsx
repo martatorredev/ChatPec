@@ -19,7 +19,9 @@ const Faq = ({ question, awnser, details }) => {
          {details?.length > 0 && (
             <ul className={styles.detailsCt}>
                {details.map((v, k) => (
-                  <li key={k}>{v}</li>
+                  <li key={k}>
+                     {v.text} <a className={styles.article} target="_blank" href={v.link}>Ver artículo</a>
+                  </li>
                ))}
             </ul>
          )}

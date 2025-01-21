@@ -32,14 +32,29 @@ const tempFaqs = [
       awnser:
          "Todas las respuestas de ChatPEC recomiendan artículos relacionados, con más información sobre el impacto medioambiental de la inteligencia artificial. Aquí dejamos una selección, con artículos tanto en inglés como en castellano. ",
       details: [
-         "J Vincent. “How much electricity does AI consume?” The Verge, 16/02/2024. Link: http://tiny.cc/z5l3yz",
-         "M O’Brien, H Fingerhut. “Artificial intelligence technology behind ChatGPT was built in Iowa — with a lot of water”. Associated Press, 09/09/2023. Link: http://tiny.cc/46m3yz",
-         "K Saenko. “Is generative AI bad for the environment? A computer scientist explains the carbon footprint of ChatGPT and its cousins”. The Conversation, 23/05/2023. Link: http://tiny.cc/h3m3yz",
-         "K Hao. “Training a single AI model can emit as much carbon as five cars in their lifetimes”. MIT Technology Review, 06/06/2019. Link: http://tiny.cc/fqu5001",
-         "D. Gelles. “La IA y su voraz consumo de energía atentan contra los objetivos climáticos.” The New York Times en Español, 19/07/2024. Link: http://tiny.cc/nqu5001",
-         "“La IA acelera la crisis climática.” Deutsche Welle, 26/09/2024. Link:http://tiny.cc/yqu5001",
-         "M. Gonzalo. “El impacto climático de la IA y su huella ecológica.” Newtral, 06/09/2023. Link: https://bit.ly/4gTFa0F",
-         "“Las emisiones de Google aumentan casi un 50% en cinco años por el uso de la inteligencia artificial.” Climática, 03/07/2024. Link: https://bit.ly/3DYaLQc",
+         { text: "J Vincent. “How much electricity does AI consume?” The Verge, 16/02/2024.", link: "http://tiny.cc/z5l3yz" },
+         {
+            text: "M O’Brien, H Fingerhut. “Artificial intelligence technology behind ChatGPT was built in Iowa — with a lot of water”. Associated Press, 09/09/2023.",
+            link: "http://tiny.cc/46m3yz",
+         },
+         {
+            text: "K Saenko. “Is generative AI bad for the environment? A computer scientist explains the carbon footprint of ChatGPT and its cousins”. The Conversation, 23/05/2023.",
+            link: "http://tiny.cc/h3m3yz",
+         },
+         {
+            text: "K Hao. “Training a single AI model can emit as much carbon as five cars in their lifetimes”. MIT Technology Review, 06/06/2019.",
+            link: "http://tiny.cc/fqu5001",
+         },
+         {
+            text: "D. Gelles. “La IA y su voraz consumo de energía atentan contra los objetivos climáticos.” The New York Times en Español, 19/07/2024.",
+            link: "http://tiny.cc/nqu5001",
+         },
+         { text: "“La IA acelera la crisis climática.” Deutsche Welle, 26/09/2024.", link: "http://tiny.cc/yqu5001" },
+         { text: "M. Gonzalo. “El impacto climático de la IA y su huella ecológica.” Newtral, 06/09/2023.", link: "https://bit.ly/4gTFa0F" },
+         {
+            text: "“Las emisiones de Google aumentan casi un 50% en cinco años por el uso de la inteligencia artificial.” Climática, 03/07/2024.",
+            link: "https://bit.ly/3DYaLQc",
+         },
       ],
    },
 ];
