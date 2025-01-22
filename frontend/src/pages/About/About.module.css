@@ -10,6 +10,7 @@
 .ct section {
    margin-top: 2rem;
    font-size: 16px;
+   line-height: 24px;
 }
 
 .ct ul {
@@ -19,5 +20,9 @@
 @media screen and (max-width: 550px) {
    .ct h2 {
       font-size: 1.5rem;
+   }
+
+   .ct section {
+      line-height: 22px;
    }
 }
