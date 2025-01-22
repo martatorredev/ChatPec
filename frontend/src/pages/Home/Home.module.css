@@ -43,6 +43,17 @@
    width: 100%;
    outline: none;
    font-size: 1.1875rem;
+   transition: background 0.3s ease;
+   padding-left: .65rem;
+}
+
+.inputField input:focus {
+   background-color: var(--primary-dark);
+   border-radius: inherit;
+   color: white;
+}
+.inputField input:focus::placeholder {
+   color: white;
 }
 
 .resetBtn {
