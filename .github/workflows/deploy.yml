@@ -2,7 +2,7 @@ on:
    push:
       branches:
          - main
-name: Deploy website ao se fazer push
+name: Deploy website on push to Repo
 
 jobs:
    deploy:
