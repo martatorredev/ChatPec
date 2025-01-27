@@ -1,4 +1,5 @@
 <IfModule mod_rewrite.c>
+  SetEnv VITE_BACKEND_URL http://chatpec.com/api
   RewriteEngine On
   RewriteBase /
   RewriteRule ^index\.html$ - [L]
