@@ -31,4 +31,4 @@ jobs:
               username: ${{ secrets.CPANEL_USERNAME }}
               password: ${{ secrets.CPANEL_PASSWORD }}
               local-dir: /home/runner/work/ChatPec/ChatPec/frontend/dist/
-              server-dir: ./public-html/
+              server-dir: ./public_html/
