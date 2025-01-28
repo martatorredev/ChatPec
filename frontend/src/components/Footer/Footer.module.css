@@ -16,3 +16,15 @@
    color: var(--orange);
    text-decoration: underline;
 }
+
+.ct small {
+   margin-top: 2rem;
+   margin-bottom: 5px;
+}
+
+#greenhost {
+   width: 200px;
+   height: 95px;
+   margin-inline: auto;
+
+}

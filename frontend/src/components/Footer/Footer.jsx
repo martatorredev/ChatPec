@@ -23,6 +23,14 @@ const Footer = () => {
             </Link>
          </p>
          <p>Copyright 2024 © - Todos los derechos reservados</p>
+         <small>Este proyecto utiliza hosting verde gracias a Lucushost</small>
+         <a href="https://www.thegreenwebfoundation.org/green-web-check/?url=chatpec.com" target="_blank">
+            <img
+               src="https://app.greenweb.org/api/v3/greencheckimage/chatpec.com?nocache=true"
+               alt="This website runs on green hosting - verified by thegreenwebfoundation.org"
+               id={styles.greenhost}
+            />
+         </a>
       </footer>
    );
 };
