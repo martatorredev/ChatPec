@@ -25,7 +25,7 @@ const Footer = () => {
          {/* TODO: Apanhar ano atual */}
          <p>Copyright 2024 © - Todos los derechos reservados</p>
          <small>
-            Este proyecto utiliza hosting verde gracias a <a href="https://www.lucushost.com/">Lucushost</a>
+            Este proyecto utiliza hosting verde gracias a <a target="_blank" href="https://www.lucushost.com/">Lucushost</a>
          </small>
          <a
             id={styles.greenhost}
