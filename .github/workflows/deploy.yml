@@ -22,7 +22,7 @@ jobs:
            run: |
               cd /home/runner/work/ChatPec/ChatPec/frontend
               npm install  
-              npm run build --mode production
+              npm run build
 
          - name: Deploy frontend to cPanel
            uses: SamKirkland/FTP-Deploy-Action@4.3.0
