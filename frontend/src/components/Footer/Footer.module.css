@@ -20,12 +20,16 @@
 .ct small {
    margin-top: 2rem;
    margin-bottom: 5px;
+   color: var(--primary);
 }
 
 #greenhost {
-   width: 200px;
-   height: 95px;
+   width: fit-content;
    margin-inline: auto;
+}
+
+#greenhost img {
+   width: 160px;
 }
 
 @media screen and (max-width: 700px) {
