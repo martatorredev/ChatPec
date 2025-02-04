@@ -1,7 +1,7 @@
 import styles from "./Faqs.module.css";
 import Faq from "./Faq";
 
-const tempFaqs = [
+const faqs = [
    {
       question: "¿Por qué existe ChatPEC?",
       awnser:
@@ -10,7 +10,7 @@ const tempFaqs = [
    {
       question: "¿Toda la Inteligencia Artificial es mala?",
       awnser:
-         "No. Por eso nos gusta hablar de Inteligencia Artificial generativa. Esa es la tecnología que está detrás de servicios como chatGPT, Midjourney, LlaMA, Stable Diffusion, DALL-E… y muchos más. Son estas tecnologías (y los modelos empresariales que hay detrás), las que tienen un alto impacto medioambiental en varios frentes: consumo de agua, energía y emisiones. Sin embargo, no todas las Inteligencias Artificiales tienen estos problemas. Los investigadores en modelización de cambio climático emplean IA para mejorar las proyecciones de los modelos, hay algoritmos que pueden ayudar en el diagnóstico médico por imagen… hay muchos ejemplos de Ias con un impacto más que positivo. Precisamente porque en Agata Communications nos dedicamos a contar la ciencia, nos preocupamos por hacerlo de manera responsable. Y eso implica contar lo positivo y lo negativo.",
+         "No. Por eso nos gusta hablar de IA generativa. Esa es la tecnología que está detrás de servicios como chatGPT, Midjourney, LlaMA, Stable Diffusion, DALL-E… y muchos más. Son estas tecnologías (y los modelos empresariales que hay detrás), las que tienen un alto impacto medioambiental en varios frentes: consumo de agua, energía y emisiones. Sin embargo, no todas las IAs tienen estos problemas. Por ejemplo, muchos investigadores en cambio climático utilizan la IA para mejorar las proyecciones de sus modelos y hay algoritmos que pueden ayudar en el diagnóstico médico por imagen. La verdad, hay muchos ejemplos de IAs con un impacto más que positivo. Pero, precisamente porque en Agata Communications nos dedicamos a contar la ciencia, nos preocupamos por hacerlo de manera responsable. Y eso implica contar lo positivo y, cuando toca, también lo negativo, en este caso el “lado oscuro” de las IA generativas.",
    },
    {
       question: "¿Cuál es el coste energético de la inteligencia artificial generativa?",
@@ -62,10 +62,10 @@ const tempFaqs = [
 const Faqs = () => {
    return (
       <div id={styles.ct}>
-         <h2>Consulte nuestras preguntas más frecuentes</h2>
+         <h2>Consulta nuestras preguntas más frecuentes</h2>
 
          <div id={styles.faqsCt}>
-            {tempFaqs.map((v, k) => (
+            {faqs.map((v, k) => (
                <Faq question={v.question} awnser={v.awnser} key={k} details={v?.details} />
             ))}
          </div>
