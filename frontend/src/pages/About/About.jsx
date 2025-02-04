@@ -5,6 +5,20 @@ const About = () => {
       <div className={styles.ct}>
          <section>
             <h2>Quiénes somos</h2>
+            <p>
+               Desde Agata estábamos preocupados por el impacto medioambiental que tiene la inteligencia artificial (IA) generativ. El tremendo
+               repunte de estas herramientas conlleva unas consecuencias medioambientales que no son muy conocidas, y queríamos poner el foco en
+               ese tema. Por eso contactamos a Marta Torre, nuestra desarrolladora web de confianza, para ponernos a trabajar en un proyecto
+               conjunto para comunicar sobre los problemas de la IA generativa.
+            </p>
+            <br />
+            <p>
+               Para nosotros es importante resaltar el adjetivo &quot;generativas&quot;, puesto que son las IAs más contaminantes. Además,
+               normalmente no cubren ninguna necesidad real de los usuarios, y tienen un coste energético mucho mayor que otras alternativas
+               mejores, como los buscadores. Para saber cuál es el edificio más alto del mundo, pregúntale a DuckDuckGo y no a una IA generativa
+               de texto, que sacarás mejor información y consumirás menos recursos.
+            </p>
+            <br />
             <p>Detrás de ChatPEC estamos dos equipos:</p>
             <ul>
                <li>Agata Communications, una agencia especializada en comunicación de ciencia e innovación.</li>
