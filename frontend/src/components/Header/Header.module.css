@@ -5,6 +5,10 @@
    transition: all 0.3s ease-out;
 }
 
+.ct img {
+   width: 160px;
+}
+
 .ct:hover {
    scale: 1.05;
 }
