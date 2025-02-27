@@ -8,7 +8,7 @@ const Chats = ({ chats = [], loading }) => {
             <div key={k} className={`${styles.chatCard} ${v?.error && styles.error} ${v?.fromBot && styles.fromBot}`}>
                {v?.fromBot && (
                   <h6>
-                     Asunto: <span>{v?.title}</span>
+                     Titulo: <span>{v?.title}</span>
                   </h6>
                )}
                <p>{v?.text}</p>

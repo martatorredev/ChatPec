@@ -36,11 +36,14 @@
 
 .chatCard h6 {
    font-size: 1.2rem;
-   margin-bottom: .6rem;
+   margin-bottom: 0.6rem;
+   font-weight: 600;
 }
 
 .chatCard h6 span {
-color: var(--orange);
+   color: #ffbd98;
+   text-shadow: 0 0 1.3px black;
+   margin-left: 2px;
 }
 
 .chatCard.error {
