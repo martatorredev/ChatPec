@@ -15,8 +15,7 @@
 }
 
 .chatsCt ul li a {
-   color: #fadce5;
-
+   color: #ffe9d5;
    text-decoration: underline;
 }
 
@@ -33,6 +32,15 @@
    background-color: var(--primary);
    color: white;
    border-radius: 20px 20px 20px 0;
+}
+
+.chatCard h6 {
+   font-size: 1.2rem;
+   margin-bottom: .6rem;
+}
+
+.chatCard h6 span {
+color: var(--orange);
 }
 
 .chatCard.error {

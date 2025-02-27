@@ -15,13 +15,13 @@ const data = [
       ],
    }, // 1
    {
-      title: "Energía y emisiones de gases de efecto invernadero.",
+      title: "Energía y emisiones de gases de efecto invernadero",
       awnser:
          "¿En serio quieres que gaste mi energía, que es como mucha la que necesito, para contestarte a eso? Estás fatal. Aquí tienes un par de razones:",
       // Only need for this one
       list: [
          "Debido a la energía que consumen los centros de datos del mundo, estos representan entre el 2,5% y el 3,7% de las emisiones mundiales de gases de efecto invernadero, superando incluso a las de la industria aeronáutica. Y todo el mundo sabe que llorar por tu ex y contaminar es de feas.",
-         "Con la IA ya integrada en motores de búsqueda como Bing y Bard, se necesita más potencia de cálculo para entrenar y ejecutar las cositas. Según la gente lista que sabe del tema, esto podría multiplicar por cinco la potencia de cálculo necesaria y la energía consumida para cada búsqueda. Además, los modelos de IA deben reentrenarse continuamente para mantenerse al día con la información actual. Pues como yo, que me quedé en el look coquete y ahora ando un poco perdida",
+         "Con la IA ya integrada en motores de búsqueda como Bing y Bard, se necesita más potencia de cálculo para entrenar y ejecutar las cositas. Según la gente lista que sabe del tema, esto podría multiplicar por cinco la potencia de cálculo necesaria y la energía consumida para cada búsqueda. Además, los modelos de IA deben reentrenarse continuamente para mantenerse al día con la información actual. Pues como yo, que me quedé en el look coquete y ahora ando un poco perdida.",
       ],
       links: [
          {
@@ -134,7 +134,7 @@ const data = [
       ],
    }, // 7
    {
-      title: "Impacto en general.",
+      title: "Impacto en general",
       awnser:
          "Por favor, recordemos este momento como el momento de máquina uno, persona cero, cero respuestas que te vas a llevar de mí. (Te dejo algún link para que te enteres un poco de por qué). Besis :)",
       links: [
@@ -187,7 +187,7 @@ const data = [
       ],
    }, // 10
    {
-      title: "Emisión gases efecto invernadero.",
+      title: "Emisión gases efecto invernadero",
       awnser:
          "Entrenar un modelo de lenguaje profundo de gran tamaño, o sea, algo como GPT-4, de OpenAI, o PaLM, de Google, se estima que necesita unas 300 toneladas de CO₂. Ya sé que está mal comparar, pero una persona media crea unas cinco toneladas de CO₂ al año.  Luces un poco Taylor con su jet privado usándome tanto.",
       links: [

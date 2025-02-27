@@ -8,7 +8,7 @@ const Home = () => {
    const [chats, setChats] = useState([]);
 
    const { send, error, loading } = useChatApi("POST", (v) => {
-      chats.push({ fromBot: true, text: v?.awnser?.awnser, links: v?.awnser?.links });
+      chats.push({ fromBot: true, text: v?.awnser?.awnser, links: v?.awnser?.links, title: v?.awnser?.title });
    });
 
    //  In case there's a error while getting the response

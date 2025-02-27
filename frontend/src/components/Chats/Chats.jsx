@@ -1,11 +1,16 @@
 import styles from "./Chats.module.css";
-import logo from "../../assets/Logo.svg";
+import logo from "../../assets/peach.svg";
 
 const Chats = ({ chats = [], loading }) => {
    return (
       <div className={styles.chatsCt}>
          {chats.map((v, k) => (
             <div key={k} className={`${styles.chatCard} ${v?.error && styles.error} ${v?.fromBot && styles.fromBot}`}>
+               {v?.fromBot && (
+                  <h6>
+                     Asunto: <span>{v?.title}</span>
+                  </h6>
+               )}
                <p>{v?.text}</p>
                {v?.fromBot && (
                   <>
