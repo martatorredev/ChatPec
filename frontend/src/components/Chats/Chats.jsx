@@ -6,11 +6,11 @@ const Chats = ({ chats = [], loading }) => {
       <div className={styles.chatsCt}>
          {chats.map((v, k) => (
             <div key={k} className={`${styles.chatCard} ${v?.error && styles.error} ${v?.fromBot && styles.fromBot}`}>
-               {v?.fromBot && (
+               {/* {v?.fromBot && (
                   <h6>
                      Titulo: <span>{v?.title}</span>
                   </h6>
-               )}
+               )} */}
                <p>{v?.text}</p>
                {v?.fromBot && (
                   <>
