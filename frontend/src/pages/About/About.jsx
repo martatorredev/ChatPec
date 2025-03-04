@@ -6,7 +6,7 @@ const About = () => {
          <section>
             <h2>Quiénes somos</h2>
             <p>
-               Desde Agata estábamos preocupados por el impacto medioambiental que tiene la inteligencia artificial (IA) generativ. El tremendo
+               Desde Agata estábamos preocupados por el impacto medioambiental que tiene la inteligencia artificial (IA) generativa. El tremendo
                repunte de estas herramientas conlleva unas consecuencias medioambientales que no son muy conocidas, y queríamos poner el foco en
                ese tema. Por eso contactamos a Marta Torre, nuestra desarrolladora web de confianza, para ponernos a trabajar en un proyecto
                conjunto para comunicar sobre los problemas de la IA generativa.
