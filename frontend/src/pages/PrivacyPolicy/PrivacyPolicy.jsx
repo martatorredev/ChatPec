@@ -1,91 +1,92 @@
 import AboutStyles from "../About/About.module.css";
-import styles from "./PrivacyPolicy.module.css"
+import styles from "./PrivacyPolicy.module.css";
 const PrivacyPolicy = () => {
    return (
       <div className={AboutStyles.ct + ` ${styles.ct}`}>
          <section>
-            <h2>Privacy policy</h2>
+            <h2>Política de privacidad</h2>
             <p>
-               This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use
-               the Service and tells You about Your privacy rights and how the law protects You.
+               Esta Política de Privacidad describe Nuestras políticas y procedimientos sobre la recopilación, uso y divulgación de Su
+               información cuando Usted utiliza el Servicio y le informa sobre Sus derechos de privacidad y cómo le protege la ley.
             </p>
             <p>
-               We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of
-               information in accordance with this Privacy Policy.
+               Utilizamos Sus datos personales para proporcionar y mejorar el Servicio. Al utilizar el Servicio, Usted acepta la recopilación y
+               el uso de información de acuerdo con esta Política de Privacidad.
             </p>
-            <h3>Interpretation</h3>
+            <h3>Interpretación</h3>
             <p>
-               The words of which the initial letter is capitalised have meanings defined under the following conditions. The following
-               definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+               Las palabras cuya letra inicial está en mayúscula tienen significados definidos en las siguientes condiciones. Las siguientes
+               definiciones tendrán el mismo significado independientemente de que aparezcan en singular o en plural.
             </p>
-            <h3>Definitions</h3>
-            <p>For the purposes of this Privacy Policy:</p>
+            <h3>Definiciones</h3>
+            <p>A los efectos de la presente Política de Privacidad:</p>
+
             <ul>
                <li>
-                  <b>Account</b> means a unique account created for You to access our Service or parts of our Service.
+                  <b>Cuenta</b> se refiere a una cuenta única creada para que Usted acceda a nuestro Servicio o a partes de nuestro Servicio.
                </li>
                <li>
-                  <b>Affiliate</b> means an entity that controls, is controlled by or is under common control with a party, where “control” means
-                  ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other
-                  managing authority.
+                  <b>Afiliado</b> significa una entidad que controla, es controlada por o está bajo control común con una parte, donde "control"
+                  significa la propiedad del 50% o más de las acciones, participaciones u otros valores con derecho a voto para la elección de
+                  consejeros u otros autoridad de gestión.
                </li>
                <li>
-                  <b>Company</b> (referred to as either “the Company”, “We”, “Us” or “Our” in this Agreement) refers to Agata Comunicación
-                  Científica S.L., Calle Bajada del Caleruco, 26A, 4D – 39012, Santander, Spain.
+                  <b>Empresa</b> (denominado "la Empresa", "Nosotros", "Nos" o "Nuestro" en el presente Acuerdo) se refiere a Ágata Comunicación
+                  Científica S.L., Calle Bajada del Caleruco, 26A, 4D - 39012, Santander, España.
                </li>
                <li>
-                  <b>Cookies</b> are small files that are placed on Your computer, mobile device or any other device by a website, containing the
-                  details of Your browsing history on that website among its many uses.
+                  <b>Cookies</b> son pequeños archivos que un sitio web coloca en su ordenador, dispositivo móvil o cualquier otro dispositivo y
+                  que contienen la detalles de su historial de navegación en ese sitio web, entre otros muchos usos.
                </li>
                <li>
-                  <b>Country</b> refers to: Spain
+                  <b>País</b> se refiere: España
                </li>
                <li>
-                  <b>Device</b> means any device that can access the Service such as a computer, a cellphone or a digital tablet.
+                  <b>Dispositivo</b> cualquier dispositivo que pueda acceder al Servicio, como un ordenador, un teléfono móvil o una tableta
+                  digital.
                </li>
                <li>
-                  <b>Personal Data</b> is any information that relates to an identified or identifiable individual. Service refers to the
-                  Website.
+                  <b>Datos Personales</b> es cualquier información que se refiera a un individuo identificado o identificable. Servicio se
+                  refiere a la Sitio web.
                </li>
                <li>
-                  <b>Service Provider</b> means any natural or legal person who processes the data on behalf of the Company. It refers to
-                  third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the
-                  Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.
+                  <b>Proveedor de Servicios</b> significa cualquier persona física o jurídica que procese los datos en nombre de la Empresa. Se
+                  refiere a terceras empresas o personas físicas contratadas por la Empresa para facilitar el Servicio, prestar el Servicio en
+                  nombre de la Empresa, para realizar servicios relacionados con el Servicio o para ayudar a la Empresa a analizar cómo se
+                  utiliza el Servicio.
                </li>
                <li>
-                  <b>Usage Data</b> refers to data collected automatically, either generated by the use of the Service or from the Service
-                  infrastructure itself (for example, the duration of a page visit).
+                  <b>Datos de uso</b> se refiere a los datos recopilados automáticamente, ya sean generados por el uso del Servicio o del
+                  Servicio (por ejemplo, la duración de la visita a una página).
                </li>
-               <li>Website refers to Agata Communications, accessible from https://agata.agency/</li>
+               <li>El sitio web se refiere a Agata Communications, accesible desde https://agata.agency/</li>
                <li>
-                  <b>You</b> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such
-                  individual is accessing or using the Service, as applicable.
+                  <b>Usted</b> significa la persona física que accede o utiliza el Servicio, o la empresa, u otra entidad jurídica en nombre de
+                  la cual dicho persona física acceda o utilice el Servicio, según corresponda.
                </li>
             </ul>
-            <h3>Links to Other Websites</h3>
+            <h3>Enlaces a otros sitios web</h3>
             <p>
-               Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be
-               directed to that third party’s site. We strongly advise You to review the Privacy Policy of every site You visit.
+               Nuestro Servicio puede contener enlaces a otros sitios web no gestionados por nosotros. Si hace clic en un enlace de terceros, se
+               le dirigirá al sitio de ese tercero. a la página web de ese tercero. Le recomendamos encarecidamente que revise la Política de
+               Privacidad de cada sitio que visite.
+            </p>
+            <p>No tenemos control sobre el contenido, las políticas de privacidad o las prácticas de los sitios o servicios de terceros.</p>
+            <h3>Cambios en esta política de privacidad</h3>
+            <p>
+               Podemos actualizar Nuestra Política de Privacidad de vez en cuando. Le notificaremos cualquier cambio publicando la nueva Política
+               de Privacidad en esta página.
             </p>
             <p>
-               We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or
-               services.
-            </p>
-            <h3>Changes to this Privacy Policy</h3>
-            <p>
-               We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this
-               page.
+               Le informaremos por correo electrónico y/o mediante un aviso destacado en Nuestro Servicio, antes de que el cambio entre en vigor
+               y actualizaremos la "Última actualización" en la parte superior de esta Política de Privacidad.
             </p>
             <p>
-               We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the
-               “Last updated” date at the top of this Privacy Policy.
+               Le recomendamos que revise periódicamente esta Política de Privacidad para comprobar si se han producido cambios. Los cambios en
+               esta Política de Privacidad entrarán en vigor cuando se publiquen en esta página.
             </p>
-            <p>
-               You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they
-               are posted on this page.
-            </p>
-            <h3>Contact Us</h3>
-            <p> If you have any questions about this Privacy Policy, You can contact us by email.</p>
+            <h3>Contacte con nosotros</h3>
+            <p>Si tiene alguna pregunta sobre esta Política de Privacidad, puede ponerse en contacto con nosotros por correo electrónico.</p>
          </section>
       </div>
    );
