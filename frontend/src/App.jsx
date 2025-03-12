@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Faqs from "./pages/Faqs/Faqs";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
+import LegalNotice from "./pages/LegalNotice/LegalNotice";
 
 function App() {
    return (
@@ -17,6 +18,7 @@ function App() {
                <Route path="/about" element={<About />} />
                <Route path="/faqs" element={<Faqs />} />
                <Route path="/privacy_policy" element={<PrivacyPolicy />} />
+               <Route path="/legal_disclaimer" element={<LegalNotice/>}/>
             </Routes>
             <Footer />
          </BrowserRouter>

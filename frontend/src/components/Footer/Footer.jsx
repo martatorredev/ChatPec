@@ -25,7 +25,7 @@ const Footer = () => {
             <Link to="/faqs" className={styles.link}>
                Faqs
             </Link>{" "}
-            | <Link to="/privacy_policy">Política de privacidad</Link>
+            | <Link to="/privacy_policy">Política de privacidad</Link> | <Link to="/legal_disclaimer">Legal disclaimer</Link>
          </p>
          <p>Copyright {getCurrentYear()} © - Todos los derechos reservados</p>
          <small>
