@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
+   function getCurrentYear() {
+      return new Date().getFullYear();
+   }
+
    return (
       <footer className={styles.ct}>
          <p>
@@ -20,12 +24,15 @@ const Footer = () => {
             |{" "}
             <Link to="/faqs" className={styles.link}>
                Faqs
-            </Link>
+            </Link>{" "}
+            | <Link to="/privacy_policy">Política de privacidad</Link>
          </p>
-         {/* TODO: Apanhar ano atual */}
-         <p>Copyright 2024 © - Todos los derechos reservados</p>
+         <p>Copyright {getCurrentYear()} © - Todos los derechos reservados</p>
          <small>
-            Este proyecto utiliza hosting verde gracias a <a target="_blank" href="https://www.lucushost.com/">Lucushost</a>
+            Este proyecto utiliza hosting verde gracias a{" "}
+            <a target="_blank" href="https://www.lucushost.com/">
+               Lucushost
+            </a>
          </small>
          <a
             id={styles.greenhost}
