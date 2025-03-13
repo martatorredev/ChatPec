@@ -26,13 +26,13 @@ const PrivacyPolicy = () => {
                   <b>Cuenta</b> se refiere a una cuenta única creada para que Usted acceda a nuestro Servicio o a partes de nuestro Servicio.
                </li>
                <li>
-                  <b>Afiliado</b> significa una entidad que controla, es controlada por o está bajo control común con una parte, donde "control"
-                  significa la propiedad del 50% o más de las acciones, participaciones u otros valores con derecho a voto para la elección de
-                  consejeros u otros autoridad de gestión.
+                  <b>Afiliado</b> significa una entidad que controla, es controlada por o está bajo control común con una parte, donde
+                  &quot;control&quot; significa la propiedad del 50% o más de las acciones, participaciones u otros valores con derecho a voto
+                  para la elección de consejeros u otros autoridad de gestión.
                </li>
                <li>
-                  <b>Empresa</b> (denominado "la Empresa", "Nosotros", "Nos" o "Nuestro" en el presente Acuerdo) se refiere a Ágata Comunicación
-                  Científica S.L., Calle Bajada del Caleruco, 26A, 4D - 39012, Santander, España.
+                  <b>Empresa</b> (denominado &quot;la Empresa&quot;, &quot;Nosotros&quot;, &quot;Nos&quot; o &quot;Nuestro&quot; en el presente
+                  Acuerdo) se refiere a Ágata Comunicación Científica S.L., Calle Bajada del Caleruco, 26A, 4D - 39012, Santander, España.
                </li>
                <li>
                   <b>Cookies</b> son pequeños archivos que un sitio web coloca en su ordenador, dispositivo móvil o cualquier otro dispositivo y
@@ -79,7 +79,7 @@ const PrivacyPolicy = () => {
             </p>
             <p>
                Le informaremos por correo electrónico y/o mediante un aviso destacado en Nuestro Servicio, antes de que el cambio entre en vigor
-               y actualizaremos la "Última actualización" en la parte superior de esta Política de Privacidad.
+               y actualizaremos la &quot;Última actualización&quot; en la parte superior de esta Política de Privacidad.
             </p>
             <p>
                Le recomendamos que revise periódicamente esta Política de Privacidad para comprobar si se han producido cambios. Los cambios en

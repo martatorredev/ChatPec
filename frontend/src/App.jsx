@@ -18,7 +18,7 @@ function App() {
                <Route path="/about" element={<About />} />
                <Route path="/faqs" element={<Faqs />} />
                <Route path="/privacy_policy" element={<PrivacyPolicy />} />
-               <Route path="/legal_disclaimer" element={<LegalNotice/>}/>
+               <Route path="/legal_disclaimer" element={<LegalNotice />} />
             </Routes>
             <Footer />
          </BrowserRouter>

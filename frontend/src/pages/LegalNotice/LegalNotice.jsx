@@ -97,7 +97,7 @@ const LegalNotice = () => {
                </p>
                <p>
                   De conformidad con los artículos 4, 5 y 6 de la Ley Orgánica 15/1999, de 13 de diciembre, Ágata Comunicación Científica S.L.
-                  informa que dispone de un fichero de datos de carácter personal denominado "Datos actividad" titularidad de Agata Comunicación
+                  informa que dispone de un fichero de datos de carácter personal denominado &quot;Datos actividad&quot; titularidad de Agata Comunicación
                   Científica S.L.
                </p>
                <p>

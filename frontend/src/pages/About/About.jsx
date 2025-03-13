@@ -35,7 +35,7 @@ const About = () => {
             </p>
             <br />
             <p>
-               Para nosotros es importante resaltar el adjetivo "generativas", puesto que son las IAs en las que vemos mayor conflicto.
+               Para nosotros es importante resaltar el adjetivo &quot;generativas&quot;, puesto que son las IAs en las que vemos mayor conflicto.
                Normalmente no cubren necesidades reales de los usuarios, y tienen un coste energético mucho mayor que otras alternativas mejores
                (pregúntale a DuckDuckGo y no a una IA generativa de texto, que sacarás mejor información y consumirás menos recursos).
             </p>
