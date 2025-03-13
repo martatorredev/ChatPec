@@ -7,12 +7,11 @@ import Footer from "./components/Footer/Footer";
 import Faqs from "./pages/Faqs/Faqs";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import LegalNotice from "./pages/LegalNotice/LegalNotice";
-import { useEffect } from "react";
 
 function App() {
-   useEffect(() => {
+  /* useEffect(() => {
       var _paq = (window._paq = window._paq || []);
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      // tracker methods like "setCustomDimension" should be called before "trackPageView"
       _paq.push(["disableCookies"]);
       _paq.push(["trackPageView"]);
       _paq.push(["enableLinkTracking"]);
@@ -28,6 +27,7 @@ function App() {
          s.parentNode.insertBefore(g, s);
       })();
    }, []);
+   */
    
    return (
       <div className="App">
