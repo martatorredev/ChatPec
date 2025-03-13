@@ -1,5 +1,6 @@
 import AboutStyles from "../About/About.module.css";
 import styles from "./PrivacyPolicy.module.css";
+
 const PrivacyPolicy = () => {
    return (
       <div className={AboutStyles.ct + ` ${styles.ct}`}>
@@ -91,4 +92,5 @@ const PrivacyPolicy = () => {
       </div>
    );
 };
+
 export default PrivacyPolicy;
