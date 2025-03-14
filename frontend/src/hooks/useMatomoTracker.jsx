@@ -19,7 +19,5 @@ const useMatomoTracker = () => {
          s.parentNode.insertBefore(g, s);
       })();
    }, []);
-
-   return null;
 };
 export default useMatomoTracker;
