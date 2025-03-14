@@ -9,7 +9,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import LegalNotice from "./pages/LegalNotice/LegalNotice";
 
 function App() {
-  /* useEffect(() => {
+   /* useEffect(() => {
       var _paq = (window._paq = window._paq || []);
       // tracker methods like "setCustomDimension" should be called before "trackPageView"
       _paq.push(["disableCookies"]);
@@ -28,7 +28,7 @@ function App() {
       })();
    }, []);
    */
-   
+
    return (
       <div className="App">
          <BrowserRouter>
@@ -37,8 +37,8 @@ function App() {
                <Route exact path="/" element={<Home />} />
                <Route path="/about" element={<About />} />
                <Route path="/faqs" element={<Faqs />} />
-               {/* <Route path="/privacy_policy" element={<PrivacyPolicy />} />
-               <Route path="/legal_disclaimer" element={<LegalNotice />} /> */}
+               <Route path="/privacy_policy" element={<PrivacyPolicy />} />
+               <Route path="/legal_disclaimer" element={<LegalNotice />} />
             </Routes>
             <Footer />
          </BrowserRouter>
