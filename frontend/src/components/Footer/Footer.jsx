@@ -9,15 +9,6 @@ const Footer = () => {
    return (
       <footer className={styles.ct}>
          <p>
-            Crafted with 💚 & ☕ by{" "}
-            <a href="https://agata.agency/" target="_blank" className={styles.link}>
-               Agata
-            </a>{" "}
-            &{" "}
-            <a href="https://martatorre.dev/" target="_blank" className={styles.link}>
-               Marta Torre
-            </a>{" "}
-            |{" "}
             <Link to="/about" className={styles.link}>
                Quiénes somos
             </Link>{" "}
@@ -27,7 +18,14 @@ const Footer = () => {
             </Link>{" "}
             | <Link to="/privacy_policy">Política de privacidad</Link> | <Link to="/legal_disclaimer">Aviso legal</Link>
          </p>
-         <p>Copyright {getCurrentYear()} © - Todos los derechos reservados</p>
+         <p>Copyright {getCurrentYear()} © - Todos los derechos reservados | Crafted with 💚 & ☕ by{" "}
+            <a href="https://agata.agency/" target="_blank" className={styles.link}>
+               Agata
+            </a>{" "}
+            &{" "}
+            <a href="https://martatorre.dev/" target="_blank" className={styles.link}>
+               Marta Torre
+            </a></p>
          <small>
             Este proyecto utiliza hosting verde gracias a{" "}
             <a target="_blank" href="https://www.lucushost.com/">
