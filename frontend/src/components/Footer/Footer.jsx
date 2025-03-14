@@ -1,25 +1,35 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import styles from "./Footer.module.css";
+import { useEffect } from "react";
 
 const Footer = () => {
    function getCurrentYear() {
       return new Date().getFullYear();
    }
 
+   const path = useLocation().pathname;
+
+   const links = [
+      { path: "/about", text: "Quiénes somos" },
+      { path: "/faqs", text: "Faqs" },
+      { path: "/privacy_policy", text: "Política de privacidad" },
+      { path: "/legal_disclaimer", text: "Aviso legal" },
+   ];
+
+   useEffect(() => {
+      console.log(path);
+   }, [path]);
+
    return (
       <footer className={styles.ct}>
          {/* Links */}
-         <p>
-            <Link to="/about" className={styles.link}>
-               Quiénes somos
-            </Link>{" "}
-            |{" "}
-            <Link to="/faqs" className={styles.link}>
-               Faqs
-            </Link>{" "}
-            | <Link to="/privacy_policy">Política de privacidad</Link> | <Link to="/legal_disclaimer">Aviso legal</Link>
-         </p>
-
+         <div>
+            {links.map((v, k) => (
+               <Link id={path === v.path && styles.active} className={styles.link} to={v.path} key={k}>
+                  {v.text} {k + 1 !== links.length && <span>|</span>}
+               </Link>
+            ))}
+         </div>
          {/* Green Host Badge */}
          <small>
             Este proyecto utiliza hosting verde gracias a{" "}

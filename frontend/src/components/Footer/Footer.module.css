@@ -32,6 +32,15 @@
    width: 120px;
 }
 
+.link span {
+   margin-inline: .4rem;
+   color: var(--orange) !important;
+}
+
+#active {
+   color: var(--primary-dark);
+}
+
 .lastP {
    margin-top: 1.5rem;
    font-size: 13px;
