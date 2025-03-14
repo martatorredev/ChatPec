@@ -32,6 +32,11 @@
    width: 160px;
 }
 
+.lastP {
+   margin-top: 1.5rem;
+   font-size: 13px;
+}
+
 @media screen and (max-width: 700px) {
    .ct small {
       margin-top: 1rem;

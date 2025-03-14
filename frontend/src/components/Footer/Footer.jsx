@@ -8,6 +8,7 @@ const Footer = () => {
 
    return (
       <footer className={styles.ct}>
+         {/* Links */}
          <p>
             <Link to="/about" className={styles.link}>
                Quiénes somos
@@ -18,14 +19,8 @@ const Footer = () => {
             </Link>{" "}
             | <Link to="/privacy_policy">Política de privacidad</Link> | <Link to="/legal_disclaimer">Aviso legal</Link>
          </p>
-         <p>Copyright {getCurrentYear()} © - Todos los derechos reservados | Crafted with 💚 & ☕ by{" "}
-            <a href="https://agata.agency/" target="_blank" className={styles.link}>
-               Agata
-            </a>{" "}
-            &{" "}
-            <a href="https://martatorre.dev/" target="_blank" className={styles.link}>
-               Marta Torre
-            </a></p>
+
+         {/* Green Host Badge */}
          <small>
             Este proyecto utiliza hosting verde gracias a{" "}
             <a target="_blank" href="https://www.lucushost.com/">
@@ -43,6 +38,18 @@ const Footer = () => {
                alt="This website runs on green hosting - verified by thegreenwebfoundation.org"
             />
          </a>
+
+         {/* Copywright and Authors */}
+         <p className={styles.lastP}>
+            Copyright {getCurrentYear()} © - Todos los derechos reservados | Crafted with 💚 & ☕ by{" "}
+            <a href="https://agata.agency/" target="_blank" className={styles.link}>
+               Agata
+            </a>{" "}
+            &{" "}
+            <a href="https://martatorre.dev/" target="_blank" className={styles.link}>
+               Marta Torre
+            </a>
+         </p>
       </footer>
    );
 };
