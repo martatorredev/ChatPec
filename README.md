@@ -8,7 +8,7 @@ Generative AIs are everywhere nowadays, but few people talk about their massive 
 So we decided to create **ChatPec**, a simple chatbot — no fancy algorithms or complex logic — that responds exclusively with sarcasm. Because, let's be honest, sometimes sarcasm is the only way to get people’s attention.
 
 ## Why 'ChatPec'? 🤔
-The name comes from "Por El Clima" (\"For The Climate\"), although... yeah, we know it can have other interpretations too xD.
+The name comes from "Por El Clima" ("For The Climate"), although... yeah, we know it can have other interpretations too xD.
 
 ## Project Goals
 - Develop a lightweight chatbot using **React**.
@@ -30,14 +30,13 @@ The name comes from "Por El Clima" (\"For The Climate\"), although... yeah, we k
 🌐 [martatorre.dev](https://martatorre.dev)
 
 ## How to Contribute
-This repository is private, and contributions are restricted to authorized collaborators. If you wish to participate or have any questions, please contact the project owner.
+This repository is **public**, and contributions are welcome! If you would like to contribute, feel free to fork the repository and submit a pull request. For questions or ideas, please contact the project owner.
 
 ## License
-This project and its contents are confidential. Any unauthorized use, distribution, or modification is strictly prohibited.
+This project is licensed under the **GNU General Public License (GPL)**. You are free to use, modify, and distribute this project under the terms of this license.
 
 ## 📧 Contact
 For inquiries or collaboration requests, please reach out to:  
 **hola@martatorre.dev**
 
 🍑 [Visit the ChatPec Project](https://chatpec.com/)
-
